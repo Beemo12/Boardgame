@@ -23,19 +23,16 @@ function createBoardPositions()
     for(let i =0 ; i<path.length;i++)
     {
 
-        if(path[i] == 1)//gaan naar rechts
+        if(path[i] == 1)
         {
-            //bedenk hier wat je met de x moet doen
             x+=boardpositionsize
         }
-        else if(path[i] == 3)//gaan naar links
+        else if(path[i] == 3)
         {
-            // bedenk hier wat je met de x moet doen
             x-=boardpositionsize
         }
-        else if(path[i] == 0)//gaan hier naar boven
+        else if(path[i] == 0)
         {
-            //bedenk hier wat je met de y moet doen
             y-=boardpositionsize
         }
         boardpositions.push(createRect(x,y,boardpositionsize,boardpositionsize));
