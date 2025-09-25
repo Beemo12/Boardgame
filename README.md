@@ -1,1 +1,1 @@
-# M2-flex-boardgame
+BoardGame
